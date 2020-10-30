@@ -15,7 +15,7 @@ export const Footer = (props: Props) => {
       </Link>
       {width > 600 && (
         <div className='text-center w-full'>
-          designed & developed by Dominik Vrbić
+          designed & developed by Dominik Pascuttini
         </div>
       )}
 
@@ -24,13 +24,15 @@ export const Footer = (props: Props) => {
           href='https://www.instagram.com/dominikvrbic/?hl=en'
           target='_blank'
           rel='noopener noreferrer'
-          style={{ marginRight: '40px' }}>
+          style={{ marginRight: '40px' }}
+        >
           <img className='h-16 w-16' src={InstagramLogo} alt='Instagram Logo' />
         </a>
         <a
           href='https://github.com/dominikvrbic'
           target='_blank'
-          rel='noopener noreferrer'>
+          rel='noopener noreferrer'
+        >
           <img className='h-16 w-16' src={GithubLogoBlue} alt='Github Logo' />
         </a>
       </div>
